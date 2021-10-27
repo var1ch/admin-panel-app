@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/admin-panel-app/static/css/main.51a67e74.chunk.css",
-    "main.js": "/admin-panel-app/static/js/main.29a38773.chunk.js",
-    "main.js.map": "/admin-panel-app/static/js/main.29a38773.chunk.js.map",
+    "main.js": "/admin-panel-app/static/js/main.39685128.chunk.js",
+    "main.js.map": "/admin-panel-app/static/js/main.39685128.chunk.js.map",
     "runtime-main.js": "/admin-panel-app/static/js/runtime-main.ceaffc73.js",
     "runtime-main.js.map": "/admin-panel-app/static/js/runtime-main.ceaffc73.js.map",
-    "static/js/2.b5beeee6.chunk.js": "/admin-panel-app/static/js/2.b5beeee6.chunk.js",
-    "static/js/2.b5beeee6.chunk.js.map": "/admin-panel-app/static/js/2.b5beeee6.chunk.js.map",
+    "static/js/2.c5229634.chunk.js": "/admin-panel-app/static/js/2.c5229634.chunk.js",
+    "static/js/2.c5229634.chunk.js.map": "/admin-panel-app/static/js/2.c5229634.chunk.js.map",
     "index.html": "/admin-panel-app/index.html",
     "static/css/main.51a67e74.chunk.css.map": "/admin-panel-app/static/css/main.51a67e74.chunk.css.map",
-    "static/js/2.b5beeee6.chunk.js.LICENSE.txt": "/admin-panel-app/static/js/2.b5beeee6.chunk.js.LICENSE.txt"
+    "static/js/2.c5229634.chunk.js.LICENSE.txt": "/admin-panel-app/static/js/2.c5229634.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ceaffc73.js",
-    "static/js/2.b5beeee6.chunk.js",
+    "static/js/2.c5229634.chunk.js",
     "static/css/main.51a67e74.chunk.css",
-    "static/js/main.29a38773.chunk.js"
+    "static/js/main.39685128.chunk.js"
   ]
 }
