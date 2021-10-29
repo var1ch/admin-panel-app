@@ -5,10 +5,11 @@ import FilterForm from "./components/FilterForm";
 import DataList from "./components/DataList";
 import Modal from "./components/Modal";
 import { selectedItemSelector } from "../../../state";
-import { useSelector } from "react-redux";
+import { useSelector, useStore } from "react-redux";
 
 export default function AdminPanel() {
   const selectedItem = useSelector(selectedItemSelector);
+  const username = useStore().getState().data.username;
   const [isModalOpened, setIsModalOpened] = useState(false);
 
   useEffect(() => {
@@ -24,7 +25,9 @@ export default function AdminPanel() {
       <div className="left-panel">
         <div className="panel-header">
           <ImHome />
-          <span>Name</span>
+          <span>
+            {username === "" ? "Hello, USERNAME" : `Hello, ${username}`}
+          </span>
         </div>
       </div>
       <div className="right-panel">

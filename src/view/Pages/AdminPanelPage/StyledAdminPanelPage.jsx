@@ -41,7 +41,12 @@ export const StyledAdminPanel = styled.div`
     flex: 1;
     background-color: #3f3ffc;
     color: white;
+    font-size: 2rem;
     div.panel-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 16px;
       background-color: #5353fa;
       text-align: center;

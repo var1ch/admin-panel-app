@@ -9,6 +9,7 @@ const dataAdapter = createEntityAdapter({
 });
 
 const initialState = dataAdapter.getInitialState({
+  username: "",
   filterType: "none",
   filterValue: "none",
 });
@@ -17,6 +18,8 @@ const dataSlice = createSlice({
   name: "data",
   initialState,
   reducers: {
+    setUserNameAction: (state, action) =>
+      void (state.username = action.payload),
     addDataAction: (state, action) =>
       dataAdapter.addMany(state, action.payload),
     setIsSelectedAction: (state, action) =>
@@ -70,6 +73,7 @@ export const selectedItemSelector = createSelector(dataSelector, (items) =>
 );
 
 export const {
+  setUserNameAction,
   addDataAction,
   setIsSelectedAction,
   changeItemAction,

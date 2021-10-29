@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector, useStore } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addDataAction, dataSelector } from "../../../../state";
 import DataItem from "./DataItem";
 import { ImCircleLeft, ImCircleRight } from "react-icons/im";
